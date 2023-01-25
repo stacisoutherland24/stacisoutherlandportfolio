@@ -1,0 +1,112 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color:#21325e;
+  
+}
+
+.about {
+  width: 100%;
+  height: calc(75vh - 75px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21325e;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: #eb19ac;
+  height: 6-0px;
+  padding: 10;
+  text-align: center;
+}
+
+.about .prompt {
+  width: 50%;
+  font-size: 35px;
+  text-align: center;
+  font-style: bold;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  
+}
+
+.skills {
+  font-style: bold italic;
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color:#21325e;
+  
+  
+}
+
+.skills h1 {
+  color:#21325e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-style: bold italic;
+  
+}
+
+.skills .list {
+  list-style: none;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: bold italic;
+  
+}
+
+.list span {
+  font-size: 30px;
+  text-align: center;
+  font-style: bold italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .skills {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .list {
+    padding: 0;
+    text-align: center;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+}
